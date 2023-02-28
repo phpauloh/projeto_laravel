@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class ContatoController extends Controller
 {
     public function index(){
-        echo "Página Contato";
+        return view('site.contato');
     }
 }
